@@ -1,0 +1,35 @@
+	/* 偶数行の背景色を変更 */
+	table.table td {
+	    background: #cecccc;
+	}
+
+	/* 奇数行の背景色を変更 */
+	table.table tr:nth-child(odd) td {
+	    background: #f0f0f0;
+	}
+
+	table.table th {
+        border-right:1px solid #000000;
+	    background: #363636;
+	    color: rgb(255, 255, 255);
+	}
+
+	/*@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');*/
+	h1 {
+	    /* font-family:"Sacramento"; */
+	    font-weight: bold;
+	    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+	    font-size: 30px;
+	}
+
+	table.table {
+	    border: 1px solid #000000;
+        border-collapse: collapse;
+	}
+    table.table td {
+        border-right:1px solid #000000;
+	}
+	/* 任意の行数毎に背景色を変更
+	dl:nth-child(n) {
+	    background-color: #eee;
+	} */
